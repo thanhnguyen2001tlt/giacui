@@ -19,7 +19,7 @@ async function getData(url = "", headers = {}) {
   return response.json();
 }
 
-const apiUrl = "https://apigiacui.vercel.app//api/services";
+const apiUrl = "https://apigiacui.vercel.app/api/services";
 const authenticationHeader = {
   "Authorization": authorization,
 };
@@ -209,7 +209,7 @@ function find() {
       return response.json();
     }
 
-    const apiUrl = "https://apigiacui.vercel.app//api/customers/" + info; // Thay thế "your-api-url" bằng URL tương ứng trong ứng dụng của bạn
+    const apiUrl = "https://apigiacui.vercel.app/api/customers/" + info; // Thay thế "your-api-url" bằng URL tương ứng trong ứng dụng của bạn
     const authenticationHeader = {
       "Authorization": authorization,
     };
@@ -293,7 +293,7 @@ function pay() {
           return response.json();
         }
 
-        const apiUrl = "https://apigiacui.vercel.app//api/orders";
+        const apiUrl = "https://apigiacui.vercel.app/api/orders";
         var employee = JSON.parse(sessionStorage.getItem("account"));
         var total = 0;
         cart.forEach((data) => {
@@ -333,7 +333,7 @@ function pay() {
                 });
                 return response.json();
               }
-              const apiUrl = "https://apigiacui.vercel.app//api/orderDetails";
+              const apiUrl = "https://apigiacui.vercel.app/api/orderDetails";
               const data = {
                 order: responses,
                 service: service.name,

@@ -17,7 +17,7 @@ function handleEditButtonClick(dataOrder) {
     }
 
     
-    const apiUrl = "https://apigiacui.vercel.app//api/orderDetails/"+dataOrder._id;
+    const apiUrl = "https://apigiacui.vercel.app/api/orderDetails/"+dataOrder._id;
     const authenticationHeader = {
         "Authorization": authorization,
     };
@@ -75,7 +75,7 @@ async function getData(url = "", headers = {}) {
     return response.json();
 }
 
-const apiUrl = "https://apigiacui.vercel.app//api/orders";
+const apiUrl = "https://apigiacui.vercel.app/api/orders";
 const authenticationHeader = {
     "Authorization": authorization,
 };

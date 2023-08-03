@@ -21,7 +21,7 @@ function handleDeleteButtonClick(data) {
 function deleteCustomer() {
 
   async function deleteCustomer(id) {
-    const apiUrl = `https://apigiacui.vercel.app//api/services/${id}`;
+    const apiUrl = `https://apigiacui.vercel.app/api/services/${id}`;
     const authenticationHeader = {
       "Authorization": authorization,
     };
@@ -78,7 +78,7 @@ async function getData(url = "", headers = {}) {
   return response.json();
 }
 
-const apiUrl = "https://apigiacui.vercel.app//api/services";
+const apiUrl = "https://apigiacui.vercel.app/api/services";
 const authenticationHeader = {
   "Authorization": authorization,
 };
