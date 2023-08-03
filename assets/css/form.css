@@ -1,0 +1,114 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group .image-preview {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .form-group .image-preview img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .form-group .image-input {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .form-group .image-input input[type="file"] {
+    display: none;
+  }
+
+  .form-group .image-input label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  .form-group .image-input label:hover {
+    background-color: #45a049;
+  }
+
+  .form-group .image-input input[type="file"]:focus + label {
+    outline: 2px solid #4CAF50;
+  }
+
+  .form-group .image-input input[type="file"]:valid + label {
+    background-color: #45a049;
+  }
+
+  .form-group .point-input {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-group .point-input input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group .point-input label {
+    margin-left: 10px;
+  }
+
+  .form-group .submit-button {
+    text-align: center;
+  }
+
+  .form-group .submit-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .form-group .submit-button button:hover {
+    background-color: #45a049;
+  }
+  .error-message {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+  }
